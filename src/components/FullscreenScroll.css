@@ -1,0 +1,30 @@
+body {
+  /* height: -webkit-calc(100% - 0px); */
+  height: calc(100% - 0px);
+}
+
+.screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  /* height: 100vh; */
+  height: -webkit-calc(100% - 0px);
+  width: 100vw;
+  background: green;
+}
+
+.page {
+  height: -webkit-calc(85% - 0px);
+  width: 100vw;
+  background: purple;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+}
+
+.nav-bar {
+  width: 100vw;
+  height: 15vh;
+  position: fixed;
+  bottom: 0;
+  background: white;
+}
