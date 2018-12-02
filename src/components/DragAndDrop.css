@@ -26,13 +26,19 @@ body {
 }
 
 .row {
+  box-sizing: border-box;
   padding: 5px;
+  margin: 0;
   font-size: 14px;
 }
 
 .row:hover {
   background: #edf4fa;
-  cursor: pointer;
+  cursor: grab;
+}
+
+.row:active {
+  cursor: grabbing;
 }
 
 .drag {
